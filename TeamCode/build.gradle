@@ -18,11 +18,6 @@ apply from: '../build.dependencies.gradle'
 android {
     namespace = 'org.firstinspires.ftc.teamcode'
 
-    compileSdk 34
-    defaultConfig {
-        minSdk 24
-    }
-
     packagingOptions {
         jniLibs.useLegacyPackaging true
     }
